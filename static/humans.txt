@@ -1,0 +1,30 @@
+/* TEAM */
+
+Product: Zylto
+Adapted by: Muzzamil Shahzad
+GitHub: @shahzamil
+From: Islamabad, Pakistan
+Original engine: ATS Screener by Sunny Patel
+Original source: https://github.com/sunnypatell/ats-screener
+
+
+/* THANKS */
+
+To everyone who reported a bug, opened a feature request, or
+starred the repo. Open source runs on attention.
+
+
+/* SITE */
+
+Last update: 2026-04-26
+Standards: HTML5, CSS3, ES2022, WCAG 2.2 AA
+Components: SvelteKit 5, Svelte 5 runes, Bits UI
+Docs: Astro Starlight
+Hosting: Vercel
+Source: https://github.com/shahzamil/zylto-resume
+License: MIT
+
+
+/* SAY HELLO */
+
+https://github.com/shahzamil/zylto-resume
