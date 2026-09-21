@@ -579,7 +579,7 @@
 		width: 100%;
 		min-height: 220px;
 		padding: 0.85rem 1rem;
-		background: rgba(0, 0, 0, 0.2);
+		background: rgba(255, 255, 255, 0.72);
 		border: none;
 		border-top: 1px solid var(--glass-border);
 		color: var(--text-primary);

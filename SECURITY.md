@@ -6,7 +6,7 @@ If you discover a security vulnerability in ATS Screener, please report it respo
 
 **Do not open a public issue.**
 
-Instead, email **sunnypatel124555@gmail.com** (or open a private advisory on GitHub) with:
+Instead, open a private security advisory on GitHub with:
 
 - Description of the vulnerability
 - Steps to reproduce

@@ -140,11 +140,11 @@
 		top: calc(100% + 8px);
 		right: 0;
 		min-width: 220px;
-		background: rgba(15, 15, 30, 0.95);
+		background: rgba(255, 255, 255, 0.98);
 		border: 1px solid var(--glass-border);
 		border-radius: var(--radius-lg);
 		backdrop-filter: blur(20px);
-		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+		box-shadow: var(--shadow-lg);
 		z-index: 100;
 		overflow: hidden;
 		animation: dropdown-in 0.15s ease;

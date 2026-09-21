@@ -477,8 +477,8 @@ export async function generatePDF() {
 	);
 
 	// center: clickable attribution link
-	const linkedInUrl = 'https://www.linkedin.com/in/sunny-patel-30b460204/';
-	const attrText = 'Zylto by Muzzamil Shahzad · Engine based on ATS Screener by Sunny Patel';
+	const linkedInUrl = 'https://www.linkedin.com/in/shahzamil/';
+	const attrText = 'Zylto by Muzzamil Shahzad';
 	doc.setFont('helvetica', 'bold');
 	doc.setFontSize(6);
 	tc(P.accent);

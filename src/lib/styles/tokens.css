@@ -5,8 +5,8 @@
 	--color-bg-tertiary: #eef1f3;
 
 	/* glass surfaces */
-	--glass-bg: rgba(16, 17, 18, 0.88);
-	--glass-bg-hover: rgba(16, 17, 18, 1);
+	--glass-bg: rgba(255, 255, 255, 0.92);
+	--glass-bg-hover: rgba(255, 255, 255, 1);
 	--glass-bg-active: rgba(238, 241, 243, 0.96);
 	--glass-border: #dfe4e7;
 	--glass-border-hover: #a8ff24;

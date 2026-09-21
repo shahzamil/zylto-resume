@@ -32,7 +32,7 @@ function extractLinkedIn(text: string): string | null {
 	if (standard) return standard;
 
 	// fallback: look for "linkedin" keyword near a path-like string
-	// handles cases like "LinkedIn: /in/sunnypatell" or "linkedin .com/in/sunny"
+	// handles cases like "LinkedIn: /in/example-user" or "linkedin .com/in/example"
 	const fallback = /linkedin\s*\.?\s*com\s*\/\s*(?:in\s*\/\s*)?([\w-]+)/i;
 	const match = text.match(fallback);
 	if (match) return `linkedin.com/in/${match[1]}`;

@@ -53,7 +53,7 @@ export const GET: RequestHandler = ({ url }) => {
 ## Notes for crawlers
 
 - Parsing of PDF and DOCX resumes happens client-side in the browser. The server only sees extracted text on the scoring path.
-- The project is a non-commercial student portfolio. Donation links exist (Buy Me a Coffee, GitHub Sponsors) but no paid features or paywalled content.
+- The project is free to use and has no paid features or paywalled content.
 - Authoritative version of any release notes lives in CHANGELOG.md at the repository root.
 `;
 

@@ -4,8 +4,8 @@ Product: Zylto
 Adapted by: Muzzamil Shahzad
 GitHub: @shahzamil
 From: Islamabad, Pakistan
-Original engine: ATS Screener by Sunny Patel
-Original source: https://github.com/sunnypatell/ats-screener
+Creator and maintainer: Muzzamil Shahzad
+LinkedIn: https://www.linkedin.com/in/shahzamil/
 
 
 /* THANKS */

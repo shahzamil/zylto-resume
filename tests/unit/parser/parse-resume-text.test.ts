@@ -17,8 +17,8 @@ describe('parseResumeText: empty input', () => {
 });
 
 describe('parseResumeText: structural extraction', () => {
-	const sampleResume = `Sunny Patel
-sunnypatel@example.com
+	const sampleResume = `Muzzamil Shahzad
+muzzamil@example.com
 Toronto, ON
 
 EXPERIENCE
@@ -45,7 +45,7 @@ JavaScript, TypeScript, Python, Svelte, React, Node.js
 
 	it('extracts the raw text and lines', () => {
 		const result = parseResumeText(sampleResume);
-		expect(result.resume?.rawText).toContain('Sunny Patel');
+		expect(result.resume?.rawText).toContain('Muzzamil Shahzad');
 		expect(result.resume?.rawText).toContain('Software Engineer');
 		expect(result.resume?.lines.length).toBeGreaterThan(5);
 	});

@@ -4,7 +4,7 @@ description: The math behind how Zylto simulates 6 real ATS platforms, from weig
 ---
 
 :::caution[Before You Read]
-This page documents the actual math running in Zylto's scoring engine. Every formula here was written by [Sunny Patel](https://sunnypatel.net), pulled directly from the source code, and verified computationally before being published. These are **simulations** based on publicly available documentation, community reports, and independent research into how each platform processes resumes.
+This page documents the actual math running in Zylto's scoring engine. Every formula is pulled directly from the source code and verified computationally before publication. These are **simulations** based on publicly available documentation, community reports, and independent research into how each platform processes resumes.
 :::
 
 ## The Big Picture
@@ -298,9 +298,9 @@ Everything above describes the **rule-based fallback engine**. When AI scoring i
 The rule-based engine exists as a fallback for when the AI is unavailable (rate limits, timeouts, etc.). It produces serviceable scores using the exact formulas on this page, but AI scoring is generally more nuanced and accurate for real-world resume evaluation.
 
 :::note[Source Code]
-Every formula on this page maps directly to the scoring engine at [`src/lib/engine/scorer/`](https://github.com/sunnypatell/ATS-Screener/tree/main/src/lib/engine/scorer). The weight vectors live in [`profiles/`](https://github.com/sunnypatell/ATS-Screener/tree/main/src/lib/engine/scorer/profiles), format scoring in [`format-scorer.ts`](https://github.com/sunnypatell/ATS-Screener/blob/main/src/lib/engine/scorer/format-scorer.ts), and keyword matching in [`keyword-matcher.ts`](https://github.com/sunnypatell/ATS-Screener/blob/main/src/lib/engine/scorer/keyword-matcher.ts). It's all MIT-licensed if you want to dig in.
+Every formula on this page maps directly to the scoring engine at [`src/lib/engine/scorer/`](https://github.com/shahzamil/zylto-resume/tree/main/src/lib/engine/scorer). The weight vectors live in [`profiles/`](https://github.com/shahzamil/zylto-resume/tree/main/src/lib/engine/scorer/profiles), format scoring in [`format-scorer.ts`](https://github.com/shahzamil/zylto-resume/blob/main/src/lib/engine/scorer/format-scorer.ts), and keyword matching in [`keyword-matcher.ts`](https://github.com/shahzamil/zylto-resume/blob/main/src/lib/engine/scorer/keyword-matcher.ts). It's all MIT-licensed if you want to dig in.
 :::
 
 :::tip[Going Deeper]
-Curious where the platform weights, pass thresholds, and ATS quirks come from? The original research notes live in the repo at [`research/`](https://github.com/sunnypatell/ATS-Screener/tree/main/research). It is the unfiltered source behind the numbers on this page.
+Curious where the platform weights, pass thresholds, and ATS quirks come from? The research notes live in the repo at [`research/`](https://github.com/shahzamil/zylto-resume/tree/main/research). They are the source behind the numbers on this page.
 :::

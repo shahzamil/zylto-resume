@@ -58,7 +58,7 @@ Your privacy is protected at every step:
 5. **Open source.** You can verify all of the above by reading the [source code](https://github.com/shahzamil/zylto-resume).
 
 :::note[Zero Cost to You]
-The live instance is hosted by [Sunny Patel](https://sunnypatel.net) using free-tier API keys. All infrastructure (Vercel, Firebase Spark, Gemini) runs on free tiers.
+The live instance is hosted and maintained by [Muzzamil Shahzad](https://www.linkedin.com/in/shahzamil/). The infrastructure uses Vercel, Firebase, and Gemini.
 :::
 
 :::note

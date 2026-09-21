@@ -27,7 +27,7 @@
 						</svg>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/sunny-patel-30b460204/"
+						href="https://www.linkedin.com/in/shahzamil/"
 						target="_blank"
 						rel="noopener"
 						class="social-link"
@@ -38,75 +38,6 @@
 								d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
 							/>
 						</svg>
-					</a>
-					<a
-						href="https://sunnypatel.net"
-						target="_blank"
-						rel="noopener"
-						class="social-link"
-						aria-label="Personal Website"
-					>
-						<svg
-							width="18"
-							height="18"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-						>
-							<circle cx="12" cy="12" r="10" />
-							<line x1="2" y1="12" x2="22" y2="12" />
-							<path
-								d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-							/>
-						</svg>
-					</a>
-					<a
-						href="https://buymeacoffee.com/sunnypatell"
-						target="_blank"
-						rel="noopener"
-						class="footer-pill coffee-pill"
-					>
-						<svg
-							width="14"
-							height="14"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						>
-							<path d="M10 2v2" />
-							<path d="M14 2v2" />
-							<path
-								d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"
-							/>
-							<path d="M6 2v2" />
-						</svg>
-						Coffee
-					</a>
-					<a
-						href="https://github.com/sponsors/sunnypatell"
-						target="_blank"
-						rel="noopener"
-						class="footer-pill sponsor-pill"
-					>
-						<svg
-							width="14"
-							height="14"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						>
-							<path
-								d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
-							/>
-						</svg>
-						Sponsor
 					</a>
 				</div>
 			</div>
@@ -178,13 +109,7 @@
 			<p class="copyright">
 				&copy; {new Date().getFullYear()} Zylto by Muzzamil Shahzad.
 			</p>
-			<p class="tech-stack">
-				Built on <a
-					href="https://github.com/sunnypatell/ats-screener"
-					target="_blank"
-					rel="noopener">ATS Screener by Sunny Patel</a
-				> under the MIT License.
-			</p>
+			<p class="tech-stack">Designed and maintained by Muzzamil Shahzad.</p>
 		</div>
 	</div>
 </footer>
@@ -249,43 +174,6 @@
 		color: var(--accent-cyan);
 		border-color: rgba(116, 206, 0, 0.3);
 		background: rgba(116, 206, 0, 0.05);
-	}
-
-	.footer-pill {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.35rem;
-		height: 36px;
-		padding: 0 0.75rem;
-		border-radius: var(--radius-md);
-		background: var(--glass-bg);
-		font-size: 0.8rem;
-		font-weight: 500;
-		text-decoration: none;
-		transition:
-			color 0.2s ease,
-			border-color 0.2s ease,
-			background 0.2s ease;
-	}
-
-	.footer-pill.coffee-pill {
-		border: 1px solid rgba(255, 221, 0, 0.3);
-		color: #7a6500;
-	}
-
-	.footer-pill.coffee-pill:hover {
-		border-color: rgba(255, 221, 0, 0.5);
-		background: rgba(255, 221, 0, 0.08);
-	}
-
-	.footer-pill.sponsor-pill {
-		border: 1px solid rgba(219, 39, 119, 0.3);
-		color: #a92668;
-	}
-
-	.footer-pill.sponsor-pill:hover {
-		border-color: rgba(219, 39, 119, 0.5);
-		background: rgba(219, 39, 119, 0.08);
 	}
 
 	.footer-col {

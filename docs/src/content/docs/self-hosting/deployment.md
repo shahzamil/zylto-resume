@@ -83,8 +83,4 @@ After deploying to Vercel:
 
 Zylto is MIT licensed. You're free to self-host, fork, and modify it. The MIT license requires that the original copyright notice and `LICENSE` file remain intact in your copy of the source code.
 
-Beyond the license, this project has a strong community expectation around visible attribution. If you deploy a public instance or build a product on top of Zylto, you are expected to include a visible credit in your site's footer linking back to the [original project](https://zylto-ats-resume-checker.vercel.app) and [repository](https://github.com/shahzamil/zylto-resume) and crediting [Sunny Patel](https://sunnypatel.net) as the creator.
-
-Something like: `Built on Zylto by Sunny Patel`
-
-This is a solo-built project by a student developer who chose to open source it so others could learn from it and use it freely. Respecting that by keeping attribution visible is how open source communities stay healthy. Forks that strip credit and present the work as entirely their own will not receive support, contributions, or upstream updates from this project. Removing attribution and passing it off as your own work isn't cool.
+If you publish a modified copy, keep the required MIT copyright and permission notice in the source distribution. A visible website credit is optional.

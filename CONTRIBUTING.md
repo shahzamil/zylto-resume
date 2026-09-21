@@ -13,7 +13,7 @@ Thanks for wanting to contribute to ATS Screener. Here's everything you need to 
 
 ```bash
 # Clone the repo
-git clone https://github.com/sunnypatell/ats-screener.git
+git clone https://github.com/shahzamil/zylto-resume.git
 cd ats-screener
 
 # Install dependencies
